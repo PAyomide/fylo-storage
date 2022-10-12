@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.parent{
+    background-color: hsl(229, 57%, 11%);
+}
+.parent1{
+    padding: 15%;
+}
+.parent2{
+    background-image: url("images/bg-desktop.png");
+    background-repeat: no-repeat;
+    padding: 15%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 39% 59%;
+    column-gap: 4%;
+    margin: -37% 20% 0% 20%;
+}
+.container1{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 5px;
+    border-top-right-radius: 80px; 
+    padding: 15%;
+
+}
+#logo{
+    width: 50%;
+}
+#icon{
+    border-radius: 5px;
+    background-color: hsl(229, 57%, 11%); 
+    margin: 10% 5% 0 0; 
+    padding: 3%; 
+    height: 33%;
+    width: 17%;
+}
+.container2{
+    background-color: hsl(228, 56%, 26%);
+    color: hsl(243, 100%, 93%);
+    height: 76%;
+    padding: 5% 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+p{
+    font-size: 14px;
+}
+.range{
+    margin: 5% 0 2% 0;
+}
+progress{
+    width: 100%;
+    height: 10px;  
+}
+ ::-moz-progress-bar{
+    background-color: hsl(335, 100%, 65%);
+}
+::-webkit-progress-value{
+    background-color: hsl(6, 100%, 80%);
+} 
+.start{
+    padding: 2% 0;
+}
+.end{
+    float: right;
+    margin-top: -7%;
+}
+@media only screen and (max-width:480px) {
+    .parent2{
+        background-image: url("images/bg-mobile.png");
+        background-repeat: no-repeat;
+        padding: 45%;
+    }
+    .container{
+        display: block;
+        column-gap: 0;
+        margin: -37% 20% 0% 20%;
+    }
+    .container1{
+        background-color: hsl(228, 56%, 26%);
+        border-radius: 5px;
+        border-top-right-radius: 80px; 
+        padding: 15%;
+    
+    }
+}
+

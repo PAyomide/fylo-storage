@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/fa8873c316.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="parent1"></div>
+    <div class="parent2"></div>
+  </div>
+  
+  <div class="container">
+    <div class="container1">
+      <img src="images/logo.svg" id="logo" alt=""><br>
+      <img src="images/icon-document.svg" id="icon" alt="">
+      <img src="images/icon-folder.svg" id="icon" alt="">
+      <img src="images/icon-upload.svg" id="icon" alt="">
+    </div>
+    
+    <div class="container2">
+      <p class="range">You’ve used <strong>815 GB</strong> of your storage</p>
+      <progress id="file" max="1000" value="815"></progress><br>
+
+      <!-- <i class="fa-thin fa-comment">185 GB Left</i>-->
+    
+      <p class="start"><strong>0 GB</strong></p>
+      <p class="end"><strong>1000 GB</strong></p>
+    
+    </div>
+  </div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+  </div>
+</body>
+</html>
